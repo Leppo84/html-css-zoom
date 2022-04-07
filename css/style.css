@@ -29,16 +29,42 @@ header {
     margin: 0 7px;
 }
 
-
 main {
-    /* debug */
-    background-color: forestgreen;
+    /* debug
+    background-color: forestgreen; */
+
+    background-color: black;
     width: 100%;
     height: calc(100vh - 130px);
     display: flex;
-    flex-wrap: row wrap;
+    flex-wrap: wrap;
     justify-content: center;
+    overflow-y: auto;
 }
+
+.cam {
+    position: relative;
+    height: 120px;
+    margin: 5px 2px;
+}
+
+.cam img {
+    min-width: 100%;
+    /* height: auto; */
+}
+
+.name_tag {
+    background-color: rgba(70, 70, 70, 0.5);
+    padding: 4px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+
 
 footer {
     background-color: #222222;
