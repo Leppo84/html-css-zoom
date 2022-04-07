@@ -35,7 +35,7 @@ main {
 
     background-color: black;
     width: 100%;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 120px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -69,8 +69,38 @@ main {
 footer {
     background-color: #222222;
     width: 100%;
-    height: 80px;
+    height: 70px;
+    padding: 3px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.cmd_left {
+    text-align: center;
+    max-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.switch {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer div a span {
+    font-size: 12px;
+}
+
+.opt {
+    color: white;
+    height: 70px;
+    font-size: 12px;
+}
+
+.cont_switch {
+    margin: 0 6px;
 }
